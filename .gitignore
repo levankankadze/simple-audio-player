@@ -1,0 +1,58 @@
+```
+# Build artifacts
+build/
+dist/
+*.pkg
+*.toc
+*.pyz
+*.pyc
+localpycs/
+warn-*.txt
+xref-*.html
+base_library.zip
+
+# Installer files
+*.nsi
+*.bat
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.egg/
+
+# MyPy
+.mypy_cache/
+```
